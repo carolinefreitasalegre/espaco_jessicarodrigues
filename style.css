@@ -272,7 +272,7 @@ footer{
 
 @media (max-width: 1090px) {
   header{
-    background-size: 100%;
+    background-size: 110%;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -284,21 +284,24 @@ footer{
     width: 40%;
     text-align: center;
     position: absolute;
-    margin-bottom: 100%;
+    padding-bottom: 130%;
+
   }
   header a{
     color: var(--color01);
     background-color: #E9E9EB;
-    border-radius: 10px;
     padding: 10px ; 
     font-size: 0.8em;
+    display: flex;
+    gap: 10px;
+    border-radius: none;
   }
   
   .nav--bar{
     text-align: center;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 85%
+    padding: 10px;
+    padding-top: 100%;
+   
   }
   .nav--bar a:hover{
     color: #A5316C;
@@ -308,15 +311,19 @@ footer{
     text-align: center;
     margin: auto;
     display: flex;
-    justify-content: center;
-    padding-right: 0;
-    
+    justify-content: center; 
   }
-  
+  .section--One{
+    padding-top: 15%;
+    display:flex;
+    justify-content: space-around;
+  }
   .video{
     width: 40%;
     height: 30%;
     margin: auto;
+    margin-right: 10px;
+    
   }
   .section--four{
     background-size: 80vh;
@@ -326,7 +333,7 @@ footer{
     
   }
   .section--two{
-    height: 120vh;
+    height: 100vh;
   }
   .tittle_servoço{
     font-size: 0.8em
@@ -355,6 +362,9 @@ footer{
   #cutilagem{
     width: 4%;
   }
+  .section--three{
+    height: 70vh;
+  }
   .valores-tabela h2{
     font-size: 0.8em;
   }
@@ -362,4 +372,6 @@ footer{
     margin-bottom: 20%;
   }
 }
+
+
 
