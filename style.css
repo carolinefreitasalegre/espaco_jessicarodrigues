@@ -229,7 +229,10 @@ footer{
 
 /* adaptação mobile */
 
-@media (max-width: 1284px) {
+@media screen and (max-width: 1284px) {
+  #seta-volver{
+    width: 5%;
+  }
   header{
     background-size: 45%;
 
@@ -270,7 +273,7 @@ footer{
 }
 
 
-@media (max-width: 1090px) {
+@media screen and (max-width: 1090px) {
   header{
     height: 67vh;
     background-size: 112%;
@@ -371,6 +374,9 @@ footer{
   }
   .text--one{
     margin-bottom: 20%;
+  }
+  bottom[serviços]{
+    
   }
 }
 
