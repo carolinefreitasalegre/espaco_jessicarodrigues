@@ -211,7 +211,10 @@ color: var(--color04);
 #insta {
   width: 3%; 
 }
-
+.tittle--contato{
+  background-color: #f1f1f338;
+  color: var(--color01);
+}
 .checkbtn {
   font-size: 30px;
   color: white;
