@@ -183,7 +183,7 @@ height:100vh;
 
 
 .section--four{
-  background-color: var(--color03);
+  background-color: var(--color02);
   height: 60vh;
   background-image: url("imagem/manipediimage.png");
   background-position: center;
@@ -229,7 +229,7 @@ color: var(--color04);
 }
 footer{
   color: var(--color01);
-  background-color: var(--color03);
+  background-color: var(--color02);
 }
 
 /* adaptação mobile */
