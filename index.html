@@ -127,7 +127,28 @@
       <p id="endereço">Endereço: Jardim Panama, Campo Grande - MS</p>
     </footer>
     
+    <script>
 
+            const target = document.querySelectorAll('[data-animation]')
+            const animationClass = 'animate'
+
+            function animeScroll(){
+              const windowTop = window.pageYOffset + ((window.innerHeight * 3) / 4); /*vai pegar o ponto exato onde aparecer o elemento*/
+
+              target.forEach(function(elemento/*pode ser qualquer nome*/){
+
+                if((windowTop) > elemento.offsetTop){
+                  elemento.classList.add(animationClass)
+                }else{
+                  elemento.classList.remove(animationClass)
+                }
+              })
+            }
+            window.addEventListener('scroll', function(){
+              animeScroll()
+            })
+
+    </script>
 
   </body>
 </html>
